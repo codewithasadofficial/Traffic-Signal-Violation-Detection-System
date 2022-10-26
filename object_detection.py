@@ -1,8 +1,8 @@
-import numpy as np
-from keras.layers import Conv2D, Input, BatchNormalization, LeakyReLU, ZeroPadding2D, UpSampling2D
-from keras.layers.merge import add, concatenate
+import numpy as np    #numpy represent as np
+from keras.layers import Conv2D, Input, BatchNormalization, LeakyReLU, ZeroPadding2D, UpSampling2D   #keras is a machine learning library
+from keras.layers.merge import add, concatenate 
 from keras.models import Model
-import struct
+import struct 
 import cv2
 
 class WeightReader:
